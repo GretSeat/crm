@@ -5,7 +5,7 @@ import TicketPage from "./pages/TicketPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <BrowserRouter>
         <Nav />
         <Routes>
