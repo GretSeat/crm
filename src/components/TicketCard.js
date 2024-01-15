@@ -14,7 +14,7 @@ function TicketCard({ color, ticket }) {
         <AvatarDisplay ticket={ticket} />
         <StatusDisplay status={ticket.status} />
         <PriorityDisplay priority={ticket.priority} />
-        <ProgressDisplay />
+        <ProgressDisplay progress={ticket.progress} />
       </Link>
       <DeleteBlock />
     </div>
