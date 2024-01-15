@@ -1,5 +1,5 @@
 function ProgressDisplay() {
-  return <div>ProgressDisplay</div>;
+  return <div>Progress Display</div>;
 }
 
 export default ProgressDisplay;
