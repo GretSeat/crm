@@ -34,7 +34,7 @@ function Dashboard() {
       title: "Build Something",
       owner: "Jim",
       avatar: "",
-      status: "working on it",
+      status: "stuck",
       priority: 3,
       progress: 69,
       description: "DO IT UP HOMIE",

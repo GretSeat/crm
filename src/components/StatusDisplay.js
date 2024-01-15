@@ -19,7 +19,7 @@ function StatusDisplay({ status }) {
   };
   return (
     <div
-      className="statusDisplay"
+      className="status-display"
       style={{ backgroundColor: getColor(status) }}
     >
       {status}
