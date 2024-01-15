@@ -1,5 +1,30 @@
-function StatusDisplay() {
-  return <div>StatusDisplay</div>;
+function StatusDisplay({ status }) {
+  const getColor = (status) => {
+    let color = status;
+    switch (status) {
+      case "done":
+        color = "rgb(186,255,201)";
+        break;
+      case "working on it":
+        color = "rgb(255, 225, 186)";
+        break;
+      case "stuck":
+        color = "rgb(255, 179, 186)";
+        break;
+      default:
+        color = "rgb(186, 225, 255)";
+        break;
+    }
+    return color;
+  };
+  return (
+    <div
+      className="statusDisplay"
+      style={{ backgroundColor: getColor(status) }}
+    >
+      {status}
+    </div>
+  );
 }
 
 export default StatusDisplay;
