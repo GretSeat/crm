@@ -1,4 +1,4 @@
-function ProgressDisplay({ priority }) {
+const PriorityDisplay = ({ priority }) => {
   return (
     <div className="priority-display">
       <div className="star-container">
@@ -10,6 +10,6 @@ function ProgressDisplay({ priority }) {
       </div>
     </div>
   );
-}
+};
 
-export default ProgressDisplay;
+export default PriorityDisplay;

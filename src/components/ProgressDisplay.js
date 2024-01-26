@@ -1,4 +1,4 @@
-function ProgressDisplay({ progress }) {
+const ProgressDisplay = ({ progress }) => {
   return (
     <div className="progress-display">
       <div className="progress-bar">
@@ -9,6 +9,6 @@ function ProgressDisplay({ progress }) {
       </div>
     </div>
   );
-}
+};
 
 export default ProgressDisplay;

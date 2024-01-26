@@ -6,7 +6,7 @@ const AvatarDisplay = ({ ticket }) => {
       <div className="img-container">
         <img
           src={ticket.avatar ? ticket.avatar : blankAvatar}
-          alt={"Photo of " + ticket.owner}
+          alt={"photo of " + ticket.owner}
         />
       </div>
     </div>
